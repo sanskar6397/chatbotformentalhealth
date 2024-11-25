@@ -1,0 +1,163 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f7fc;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4e54c8;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu a:hover {
+    color: #ffce00;
+  }
+  
+  .profile-signup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-image {
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .signup-button {
+    padding: 8px 16px;
+    background-color: #ffce00;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #ffba00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: red;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .hero-buttons {
+    margin-top: 40px;
+  }
+  
+  .hero-buttons a {
+    margin: 0 10px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more {
+    background-color: #ffce00;
+    color: #333;
+  }
+  
+  .read-more:hover {
+    background-color: #ffba00;
+  }
+  
+  .try-it-out {
+    background-color: #4e54c8;
+    color: white;
+  }
+  
+  .try-it-out:hover {
+    background-color: #3b3f99;
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .nav-menu {
+      display: none; /* Hide navigation menu on mobile */
+    }
+  
+    .hero-buttons a {
+      margin: 5px;
+      font-size: 0.9rem;
+    }
+  }
+  
